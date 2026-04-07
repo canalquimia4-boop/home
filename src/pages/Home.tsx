@@ -158,9 +158,6 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
-              <span className="text-brand-light font-bold italic text-lg block">
-                {t('home_stats_subtitle')}
-              </span>
               <h2 className="text-5xl font-bold text-brand-dark leading-tight">
                 {t('home_stats_title')}
               </h2>
