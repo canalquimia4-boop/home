@@ -146,7 +146,7 @@ export default function Home() {
           </div>
 
           <div className="mt-12 text-center">
-            <a href="/services" className="btn-secondary">
+            <a href="https://intensiva.com.br/projetos/waterland/services/" className="btn-secondary">
               {t('cta_view_all')}
             </a>
           </div>
