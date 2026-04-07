@@ -11,22 +11,22 @@ export default function Home() {
     { 
       title: t('service_renovations_title'), 
       icon: <img src="https://drive.google.com/thumbnail?id=1KAtvGrDfRpj5nUm6Z414uoBDxbFRXNqN&sz=w200" className="w-[100px] h-[100px] object-contain" alt="Renovation Icon" referrerPolicy="no-referrer" />, 
-      path: '/services/renovations' 
+      path: 'https://intensiva.com.br/projetos/waterland/pool-deck-renovation/' 
     },
     { 
       title: t('service_cleaning_title'), 
       icon: <img src="https://drive.google.com/thumbnail?id=1crlB1Q9AxAK9sxIL4a45rMWIbQBhB6Ch&sz=w200" className="w-[100px] h-[100px] object-contain" alt="Cleaning Icon" referrerPolicy="no-referrer" />, 
-      path: '/services/cleaning' 
+      path: 'https://intensiva.com.br/projetos/waterland/pool-cleaning-maintenance/' 
     },
     { 
       title: t('service_equipment_title'), 
       icon: <img src="https://drive.google.com/thumbnail?id=1-pPSPyVffOBBFxsub6_H-alVApPDgp3W&sz=w200" className="w-[100px] h-[100px] object-contain" alt="Equipment Icon" referrerPolicy="no-referrer" />, 
-      path: '/services/equipment' 
+      path: 'https://intensiva.com.br/projetos/waterland/equipment-repair-installation/' 
     },
     { 
       title: t('service_acid_wash_title'), 
       icon: <img src="https://drive.google.com/thumbnail?id=1GZ31v4deLDAuHUl2GPcfj0t2yMGmAQxl&sz=w200" className="w-[100px] h-[100px] object-contain" alt="Acid Wash Icon" referrerPolicy="no-referrer" />, 
-      path: '/services/acid-wash' 
+      path: 'https://intensiva.com.br/projetos/waterland/acid-wash-deep-pool-cleaning/' 
     },
   ];
 
@@ -68,10 +68,10 @@ export default function Home() {
               {t('hero_subtitle')}
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
-              <a href="#estimate" className="btn-primary !bg-white !text-[#002b62] hover:!bg-slate-100">
+              <a href="https://intensiva.com.br/projetos/waterland/contact/" className="btn-primary !bg-white !text-[#002b62] hover:!bg-slate-100">
                 {t('cta_estimate')}
               </a>
-              <a href="/services" className="btn-secondary border-white text-white hover:bg-white hover:text-brand-dark">
+              <a href="https://intensiva.com.br/projetos/waterland/services/" className="btn-secondary !bg-white !border-white !text-brand-dark hover:!bg-slate-100">
                 {t('nav_services')}
               </a>
             </div>
@@ -99,7 +99,7 @@ export default function Home() {
               <p className="text-lg text-slate-600 leading-relaxed">
                 {t('home_intro_text')}
               </p>
-              <a href="/about" className="inline-flex items-center text-brand-light font-bold hover:underline">
+              <a href="https://intensiva.com.br/projetos/waterland/about-us/" className="inline-flex items-center text-brand-light font-bold hover:underline">
                 {t('home_learn_more')} <ChevronRight size={20} />
               </a>
             </div>
@@ -209,7 +209,7 @@ export default function Home() {
           <h3 className="text-4xl font-bold">{t('home_ready_title')}</h3>
           <p className="text-xl text-slate-200">{t('home_ready_subtitle')}</p>
           <div className="pt-4">
-            <a href="/contact" className="btn-primary !px-12 !py-4 text-lg !bg-brand-light hover:!bg-white hover:!text-brand-dark">
+            <a href="https://intensiva.com.br/projetos/waterland/contact/" className="btn-primary !px-12 !py-4 text-lg !bg-brand-light hover:!bg-white hover:!text-brand-dark">
               {t('cta_schedule')}
             </a>
           </div>
