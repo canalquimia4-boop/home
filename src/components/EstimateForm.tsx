@@ -53,7 +53,7 @@ export default function EstimateForm() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-8 rounded-2xl shadow-xl space-y-4">
+    <form onSubmit={handleSubmit} className="bg-[#e1f0ff] p-8 rounded-2xl shadow-xl space-y-4">
       <h3 className="text-2xl font-bold text-brand-dark mb-6">{t('form_submit')}</h3>
       
       {error && (
@@ -65,27 +65,27 @@ export default function EstimateForm() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="space-y-1">
           <label className="text-sm font-semibold text-slate-700">{t('form_full_name')} *</label>
-          <input required name="fullName" type="text" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
+          <input required name="fullName" type="text" className="w-full px-4 py-2 border border-[#c2c2c2] text-[#a4a4a4] rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
         </div>
         <div className="space-y-1">
           <label className="text-sm font-semibold text-slate-700">{t('form_phone')} *</label>
-          <input required name="phone" type="tel" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
+          <input required name="phone" type="tel" className="w-full px-4 py-2 border border-[#c2c2c2] text-[#c3c3c3] rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
         </div>
       </div>
 
       <div className="space-y-1">
         <label className="text-sm font-semibold text-slate-700">{t('form_email')} *</label>
-        <input required name="email" type="email" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
+        <input required name="email" type="email" className="w-full px-4 py-2 border border-[#c2c2c2] text-[#c3c3c3] rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
       </div>
 
       <div className="space-y-1">
         <label className="text-sm font-semibold text-slate-700">{t('form_address')} *</label>
-        <input required name="address" type="text" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
+        <input required name="address" type="text" className="w-full px-4 py-2 border border-[#c2c2c2] text-[#c3c3c3] rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
       </div>
 
       <div className="space-y-1">
         <label className="text-sm font-semibold text-slate-700">{t('form_service')} *</label>
-        <select required name="service" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none">
+        <select required name="service" className="w-full px-4 py-2 border border-[#c2c2c2] rounded-lg focus:ring-2 focus:ring-brand-light outline-none">
           <option value="">{t('form_select_service')}</option>
           <option value="leak-detection">{t('service_leak_detection')}</option>
           <option value="cleaning">{t('service_cleaning_maintenance')}</option>
@@ -99,12 +99,12 @@ export default function EstimateForm() {
 
       <div className="space-y-1">
         <label className="text-sm font-semibold text-slate-700">{t('form_message')}</label>
-        <textarea name="message" rows={3} className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none resize-none"></textarea>
+        <textarea name="message" rows={3} className="w-full px-4 py-2 border border-[#c2c2c2] text-[#c3c3c3] rounded-lg focus:ring-2 focus:ring-brand-light outline-none resize-none"></textarea>
       </div>
 
       <div className="space-y-1">
         <label className="text-sm font-semibold text-slate-700">{t('form_preferred_time')}</label>
-        <input name="preferredTime" type="text" className="w-full px-4 py-2 border border-slate-200 rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
+        <input name="preferredTime" type="text" className="w-full px-4 py-2 border border-[#c2c2c2] rounded-lg focus:ring-2 focus:ring-brand-light outline-none" />
       </div>
 
       <button 

@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* Introduction Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-[#e1f0ff]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-6">
@@ -99,7 +99,7 @@ export default function Home() {
               <p className="text-lg text-slate-600 leading-relaxed">
                 {t('home_intro_text')}
               </p>
-              <a href="https://intensiva.com.br/projetos/waterland/about-us/" className="inline-flex items-center text-brand-light font-bold hover:underline">
+              <a href="https://intensiva.com.br/projetos/waterland/about-us/" className="inline-flex items-center text-[#003366] font-bold hover:underline">
                 {t('home_learn_more')} <ChevronRight size={20} />
               </a>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
                 alt="Family enjoying pool"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute -bottom-6 -left-6 bg-brand-light text-white p-8 rounded-2xl shadow-xl hidden md:block">
+              <div className="absolute -bottom-6 -left-6 bg-brand-light text-[#003366] p-8 rounded-2xl shadow-xl hidden md:block">
                 <p className="text-3xl font-bold">{t('home_trusted_count')}</p>
                 <p className="text-sm font-medium opacity-90">{t('home_trusted_label')}</p>
               </div>
@@ -120,11 +120,11 @@ export default function Home() {
       </section>
 
       {/* Services Overview */}
-      <section className="py-24 bg-slate-50">
+      <section className="py-24 bg-[#003366]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="text-4xl font-bold text-brand-dark">{t('home_services_title')}</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">{t('home_services_subtitle')}</p>
+            <h2 className="text-4xl font-bold text-white">{t('home_services_title')}</h2>
+            <p className="text-white max-w-2xl mx-auto">{t('home_services_subtitle')}</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
