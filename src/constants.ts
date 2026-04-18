@@ -14,7 +14,7 @@ export const translations: Translation = {
   nav_portfolio: { en: 'Portfolio', es: 'Portafolio' },
   nav_testimonials: { en: 'Testimonials', es: 'Testimonios' },
   nav_contact: { en: 'Contact', es: 'Contacto' },
-  hero_title: { en: 'High-Quality Pool Service in Central Florida', es: 'Servicio de Piscinas de Alta Calidad en Florida Central' },
+  hero_title: { en: 'High-Quality Pool Renovation in Central Florida', es: 'Renovación de Piscinas de Alta Calidad en Florida Central' },
   hero_subtitle: { en: 'Serving Orlando and surrounding areas with over 20 years of experience in pool maintenance, renovations, and expert solutions you can trust.', es: 'Sirviendo a Orlando y áreas circundantes con más de 20 años de experiencia en mantenimiento, renovaciones y soluciones expertas en las que puede confiar.' },
   cta_estimate: { en: 'Get Your Free In-Person Estimate', es: 'Obtenga su Presupuesto Presencial Gratuito' },
   cta_schedule: { en: 'Schedule Your Free Estimate', es: 'Programe su Presupuesto Gratuito' },
